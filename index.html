@@ -1,32 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript">
-    			var host = "glopez.com.ve";
-    			if ((host == window.location.host) && (window.location.protocol != "https:"))
-        		window.location.protocol = "https";
-		</script>
-    <title>Gabriel López - Desarrollador Front-End</title>
+    <meta charset="utf-8">
+    <title>Gabriel López - Apuntes</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="css\style.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Marcellus+SC" rel="stylesheet">
     <link rel="shortcut icon" href="img\GL.ico" type="favicon/ico" />
-    <!--Google Analytics-->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-91480998-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <meta property="og:image" content="https://glopez.com.ve/img/thumbnail.jpg"/>
-    <meta property="og:description" content="Mi pagina curriculo/portafolio"/>
-    <meta property="og:title" content="Gabriel Lopez - Desarrollador Front-End"/>
   </head>
   <body>
 
     <section id="header">
+      <div>
         <nav class="container-fluid navbar-default navbar-fixed-top" role="navigation" id="nav1">
           <div class="navbar-header">
             <a class="navbar-brand" href="#inicio" id="brand">Gabriel López</a>
@@ -45,24 +30,31 @@
             </ul>
           </div>
         </nav>
-    </section>
-
-    <section id="sobreMi">
-        <h2 class="subtitulo text-center">Apuntes</h2>
-        <p class="descripcion text-center">
-          A petición de varias personas aquí les dejo los apuntes que he ido tomando a medida que voy aprendiendo programación y ciertas herramientas.
-        </p>
-    </section>
-
-    <section>
-      <div class="apuntes">
-
       </div>
     </section>
 
-    <section id="footer">
-      <p class="text-center" id="foot">&copy; 2017 coded by Gabriel López</p>
+    <section id="body">
+      <div class="container">
+        <div id="main">
+          <h2 class="subtitulo text-center">Apuntes</h2>
+          <p class="descripcion text-center"> A petición de varias personas aquí les dejo los apuntes que he ido tomando a medida que voy aprendiendo programación y ciertas herramientas. </p>
+        </div><!--end main-->
+
+        <hr>
+
+        <div class="apuntes">
+          <iframe src="https://gist.github.com/gabolopez90/0f8440284165e5c06c664e7e51e77571" width="" height="" class="img-responsive"></iframe>
+        </div><!--end apuntes-->
+      </div> <!--end container-->
+
     </section>
+    <section id="footer">
+      <div class="container">
+        <p class="text-center" id="foot">&copy; 2017 coded by Gabriel López</p>
+      </div>
+    </section>
+
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/a2b891d90e.js"></script>
