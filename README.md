@@ -3,3 +3,17 @@
 # Apuntes
 
 Página para mis apuntes, la mayoría cargados en gist de github. Para compartir con quien esté interesado. 
+
+Actualmente son:
+
+  + Git
+  + HTML
+  + CSS
+  + SASS
+  + Javascript
+  + JQuery
+  + PHP
+  + Node.js
+  + MongoDB
+  + SQL
+  + Bootstrap
