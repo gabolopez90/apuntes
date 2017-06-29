@@ -1,6 +1,7 @@
 html{
   position: relative;
   min-height: 100%;
+  font-size: 16px;
 }
 
 body {
@@ -75,13 +76,12 @@ body {
 }
 .subtitulo{
   color: rgba(0, 191, 255, 1);
-  font-size: 50px;
+  font-size: 2em;
 }
 .descripcion{
-  font-size: 1em;
-  margin-right: 20%;
-  margin-left: 20%;
+  font-size: 0.7em;
   text-align: justify;
+
 }
 .subtl{
   font-size: 1.5em;
@@ -116,6 +116,10 @@ li{
   list-style-type: none;
   margin-top: 10px;
 }
+.apuntes{
+  font-size: 2em;
+}
+
 /*Galeria de proyectos*/
 div.img {
     border: 1px solid #ccc;
